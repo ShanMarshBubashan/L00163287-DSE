@@ -28,7 +28,7 @@ class L00163287ApplicationTests {
 
     @Test
     void testMultiplication() {
-        assertEquals(50.0, calculator.subtraction(10, 5), "Addition worked");
+        assertEquals(50.0, calculator.multiply(10, 5), "Addition worked");
     }
 
 }
