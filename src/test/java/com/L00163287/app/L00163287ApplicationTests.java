@@ -31,4 +31,7 @@ class L00163287ApplicationTests {
         assertEquals(50.0, calculator.multiply(10, 5), "Multiplication worked");
     }
 
+    @Test
+    void testDivision() { assertEquals(5.0, calculator.division(50, 10), "Division worked"); }
+
 }
