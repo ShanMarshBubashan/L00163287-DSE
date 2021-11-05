@@ -23,12 +23,12 @@ class L00163287ApplicationTests {
 
     @Test
     void testSubtraction() {
-        assertEquals(5.0, calculator.subtraction(10, 5), "Addition worked");
+        assertEquals(5.0, calculator.subtraction(10, 5), "Substraction worked");
     }
 
     @Test
     void testMultiplication() {
-        assertEquals(50.0, calculator.multiply(10, 5), "Addition worked");
+        assertEquals(50.0, calculator.multiply(10, 5), "Multiplication worked");
     }
 
 }
