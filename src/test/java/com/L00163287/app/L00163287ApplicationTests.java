@@ -35,6 +35,6 @@ class L00163287ApplicationTests {
     void testDivision() { assertEquals(5.0, calculator.division(50, 10), "Division worked"); }
 
     @Test
-    void testReminder() { assertEquals(1.0, calculator.Reminder(5, 2), "Reminder worked"); }
+    void testReminder() { assertEquals(1.0, calculator.Reminder(10, 2), "Reminder worked"); }
 
 }
